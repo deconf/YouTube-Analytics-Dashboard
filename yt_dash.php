@@ -4,7 +4,7 @@ Plugin Name: YouTube Analytics Dashboard
 Plugin URI: https://deconf.com
 Description: This plugin will display YouTube Analytics data and statistics into Admin Dashboard. 
 Author: Alin Marcu
-Version: 1.0
+Version: 1.1
 Author URI: https://deconf.com
 */  
 

@@ -4,7 +4,7 @@ Donate link: http://deconf.com/donate/
 Tags: youtube analytics dashboard, analytics dashboard, youtube, dashboard, youtube analytics widget, youtube analytics, tracking, analytics
 Requires at least: 2.8
 Tested up to: 4.1
-Stable tag: 0.9.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
