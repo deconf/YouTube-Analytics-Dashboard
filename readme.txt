@@ -8,14 +8,12 @@ Stable tag: 0.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will display YouTube Analytics data and statistics inside your WordPress Blog.
+This plugin will display YouTube Analytics data and statistics inside your WordPress site.
 
 == Description ==
-Using a widget, YouTube Analytics Dashboard displays detailed info and statistics about: number of views, minutes watched, average view duration, video likes, video dislikes and number of comments directly on your Admin Dashboard.
+Using a widget, [YouTube Analytics Dashboard](https://deconf.com/youtube-analytics-dashboard-wordpress/) displays detailed info and statistics about: number of views, minutes watched, average view duration, video likes, video dislikes and number of comments directly on your Admin Dashboard.
 
-Using this plugin, your data is collected in a fast and secure manner, because YouTube Analytics Dashboard uses OAuth2 protocol and YouTube Analytics API.
-
-Main benefits:
+Youtube Analytics Dashboard features:
 
 - you can access YouTube Analytics in a simple widget, on your dashboard
 - cache feature, this improves loading speeds
@@ -23,27 +21,26 @@ Main benefits:
 - access level settings, choose who can view your youtube stats
 - option to display Favorites Added, Favorites Removed, Subscribers Gained, Subscribers Lost, Shares, Annotation Click ThroughRate, Annotation Close Rate in a table
 - simple Authorization process
-- has multilingual support, a POT file is available for translations. If you have a complete translation, send me the translation file or upload it to our forum and will be included in next release.
+- has multilingual support, a POT file is available for translations.
 
-Related Links:
+= Further reading and info =
 
-* <a href="http://forum.deconf.com/wordpress-plugins-f182/" target="_blank">Support and YouTube Analytics Dashboard translations</a>
-
-* <a href="http://deconf.com/youtube-analytics-dashboard-wordpress/" title="YouTube Analytics Dashboard"  target="_blank">YouTube Analytics Dashboard Plugin Homepage</a>
+* Homepage of [YouTube Analytics Dashboard](https://deconf.com/youtube-analytics-dashboard-wordpress/) for WordPress
+* Other [WordPress Plugins](https://deconf.com/wordpress/) by same author
 
 == Installation ==
 
 1. Upload the full directory into your wp-content/plugins directory
 2. Activate the plugin at the plugin administration page
-3. Open the plugin configuration page, which is located under Settings -> YT Dashboard.
+3. Open the plugin configuration page, which is located under Settings -> YouTube Analytics.
 4. Authorize the application using the 'Authorize Application' button
-5. Go back to the plugin configuration page, which is located under Settings -> YT Dashboard to update the final settings.
+5. Go back to the plugin configuration page, which is located under Settings -> YouTube Analytics to update the final settings.
 
 A step by step tutorial is available here: [YouTube Analytics Dashboard video tutorial](http://deconf.com/youtube-analytics-dashboard-wordpress/)
 
 == Frequently Asked Questions == 
 
-= I have several wordpress websites do I need an API Project for each one? =
+= I have several WordPress websites do I need an API Project for each one? =
 
 No, you don't. You can use the same API Project (same API Key, Client Secret and Client ID) for all your websites.
 

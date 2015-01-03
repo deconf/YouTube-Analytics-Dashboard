@@ -225,8 +225,6 @@ function yt_dash_content() {
 	foreach ($data->getRows() as $row){
 		$yt_dash_statsdata.="['".$row[0]."',".$row[1]."],";
 	}
-	
-	//print_r($yt_dash_statsdata);
 
 	$metrics = 'views,estimatedMinutesWatched,averageViewDuration,likes,dislikes,comments';
 	if (get_option('yt_dash_additional')){
@@ -245,7 +243,6 @@ function yt_dash_content() {
 			set_transient( $serial, $data, get_option('yt_dash_cachetime') );
 		}else{
 			$data = $transient;
-			//echo "HIT1";	
 		}	
 	} catch (Google_Service_Exception $e) {
 		echo yt_dash_pretty_error($e);
@@ -297,11 +294,11 @@ function yt_dash_content() {
 
 	if (get_option('yt_dash_additional')){
 	
-		$yt_dash_additional="['".__("Favorites Added",'yt_dash')."',".$rows[0][6]."],";
-		$yt_dash_additional.="['".__("Favorites Removed",'yt_dash')."',".$rows[0][7]."],";
-		$yt_dash_additional.="['".__("Subscribers Gained",'yt_dash')."',".$rows[0][11]."],";
-		$yt_dash_additional.="['".__("Subscribers Lost",'yt_dash')."',".$rows[0][12]."],";	
-		$yt_dash_additional.="['".__("Shares",'yt_dash')."',".$rows[0][8]."],";
+		$yt_dash_additional="['".__("Favorites Added",'yt_dash')."',".(int)$rows[0][6]."],";
+		$yt_dash_additional.="['".__("Favorites Removed",'yt_dash')."',".(int)$rows[0][7]."],";
+		$yt_dash_additional.="['".__("Subscribers Gained",'yt_dash')."',".(int)$rows[0][11]."],";
+		$yt_dash_additional.="['".__("Subscribers Lost",'yt_dash')."',".(int)$rows[0][12]."],";	
+		$yt_dash_additional.="['".__("Shares",'yt_dash')."',".(int)$rows[0][8]."],";
 		$yt_dash_additional.="['".__("Annotation Click ThroughRate",'yt_dash')."',".round($rows[0][9],2)."],";
 		$yt_dash_additional.="['".__("Annotation Close Rate",'yt_dash')."',".round($rows[0][10],2)."],";
  
@@ -347,19 +344,19 @@ function yt_dash_content() {
 			<table class="yttable" cellpadding="4">
 			<tr>
 			<td width="24%">'.__("Views:",'yt_dash').'</td>
-			<td width="12%" class="ytvalue"><a href="?yt_query=views&yt_period='.$yt_period.'" class="yttable">'.$rows[0][0].'</td>
+			<td width="12%" class="ytvalue"><a href="?yt_query=views&yt_period='.$yt_period.'" class="yttable">'.(int)$rows[0][0].'</td>
 			<td width="24%">'.__("Watched:",'yt_dash').'</td>
 			<td  width="12%" class="ytvalue"><a href="?yt_query=estimatedMinutesWatched&yt_period='.$yt_period.'" class="yttable">'.round(($rows[0][1]/60),2).'h</a></td>			
 			<td width="24%">'.__("Duration:",'yt_dash').'</td>
-			<td width="12%" class="ytvalue"><a href="?yt_query=averageViewDuration&yt_period='.$yt_period.'" class="yttable">'.$rows[0][2].'s</a></td>
+			<td width="12%" class="ytvalue"><a href="?yt_query=averageViewDuration&yt_period='.$yt_period.'" class="yttable">'.(int)$rows[0][2].'s</a></td>
 			</tr>
 			<tr>
 			<td>'.__("Likes:",'yt_dash').'</td>
-			<td class="ytvalue"><a href="?yt_query=likes&yt_period='.$yt_period.'" class="yttable">'.$rows[0][3].'</a></td>
+			<td class="ytvalue"><a href="?yt_query=likes&yt_period='.$yt_period.'" class="yttable">'.(int)$rows[0][3].'</a></td>
 			<td>'.__("Dislikes:",'yt_dash').'</td>
-			<td class="ytvalue"><a href="?yt_query=dislikes&yt_period='.$yt_period.'" class="yttable">'.$rows[0][4].'</a></td>
+			<td class="ytvalue"><a href="?yt_query=dislikes&yt_period='.$yt_period.'" class="yttable">'.(int)$rows[0][4].'</a></td>
 			<td>'.__("Comments:",'yt_dash').'</td>
-			<td class="ytvalue"><a href="?yt_query=comments&yt_period='.$yt_period.'" class="yttable">'.$rows[0][5].'</a></td>
+			<td class="ytvalue"><a href="?yt_query=comments&yt_period='.$yt_period.'" class="yttable">'.(int)$rows[0][5].'</a></td>
 			</tr>
 			</table>
 					
