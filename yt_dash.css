@@ -1,0 +1,88 @@
+.yttable{
+	font-family:Arial, Verdana; 
+	font-weight:bold; 
+	font-size:10pt;
+	width: 98%;
+}
+.ytbutton{
+	-moz-box-shadow:inset 0px 1px 0px 0px #E1312B;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #E1312B;
+	box-shadow:inset 0px 1px 0px 0px #E1312B;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C7312B), color-stop(1, #F0312B) );
+	background:-moz-linear-gradient( center top, #C7312B 5%, #F0312B 100% );
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#C7312B\', endColorstr=\'#F0312B\');*/
+	background-color:#C7312B;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #E40000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px 2.8%;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #F40000;
+}
+.ytbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F0312B), color-stop(1, #C7312B) );
+	background:-moz-linear-gradient( center top, #F0312B 5%, #C7312B 100% );
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#F0312B\', endColorstr=\'#C7312B\');*/
+	background-color:#F0312B;
+}
+.ytbutton:active {
+	position:relative;
+	top:1px;
+}
+a.yttable:link { 
+	color: #FFFFDD; 
+	text-decoration: none;
+}
+a.yttable:visited {
+	color: #FFFFDD; 
+	text-decoration: none;
+}
+a.yttable:hover {
+	color: #FAFF97; 
+	text-decoration: none;
+}
+
+#yt_dash_statsdata{
+	width: 98%;
+	display: block;
+	margin: 0 auto;
+}
+	
+table.yttable {
+	-moz-box-shadow:inset 0px 1px 0px 0px #E1312B;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #E1312B;
+	box-shadow:inset 0px 1px 0px 0px #E1312B;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C7312B), color-stop(1, #F0312B) );
+	background:-moz-linear-gradient( center top, #C7312B 5%, #F0312B 100% );
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#C7312B\', endColorstr=\'#F0312B\');*/
+	background-color:#C7312B;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #E40000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:2px 2px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #F40000;
+}
+
+.deconf-title {
+	float:left;
+	margin-right: 10px;
+	margin-top: 2px;
+	clear:left;
+}
+
+.deconf-desc {
+	font-size: 1em;
+}

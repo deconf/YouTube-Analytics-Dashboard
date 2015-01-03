@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Youtube Analytics Dashboard\n"
+"POT-Creation-Date: 2015-01-03 18:24+0200\n"
+"PO-Revision-Date: 2015-01-03 18:24+0200\n"
+"Last-Translator: Alin Marcu <admin@deconf.com>\n"
+"Language-Team: Deconf <admin@deconf.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././functions.php:4
+msgid "Help on Wordpress Forum"
+msgstr ""
+
+#: .././functions.php:4
+msgid "Support on Deconf Forum"
+msgstr ""
+
+#: .././yt_dash.php:17
+msgid "YouTube Analytics Dashboard"
+msgstr ""
+
+#: .././yt_dash.php:17
+msgid "YouTube Analytics"
+msgstr ""
+
+#: .././yt_dash.php:30
+msgid "Settings"
+msgstr ""
+
+#: .././yt_dash.php:120
+msgid "Ask an admin to authorize this Application"
+msgstr ""
+
+#: .././yt_dash.php:123
+msgid "Use this link to get your access code:"
+msgstr ""
+
+#: .././yt_dash.php:123
+msgid "Get Access Code"
+msgstr ""
+
+#: .././yt_dash.php:125
+msgid "Access Code:"
+msgstr ""
+
+#: .././yt_dash.php:126
+msgid "Save Access Code"
+msgstr ""
+
+#: .././yt_dash.php:148
+msgid "Getting your YouTube unique User ID ..."
+msgstr ""
+
+#: .././yt_dash.php:190
+msgid "Coments"
+msgstr ""
+
+#: .././yt_dash.php:192
+msgid "Average View Duration (seconds)"
+msgstr ""
+
+#: .././yt_dash.php:194
+msgid "Likes"
+msgstr ""
+
+#: .././yt_dash.php:196
+msgid "Dislikes"
+msgstr ""
+
+#: .././yt_dash.php:198
+msgid "Minutes Watched (minutes)"
+msgstr ""
+
+#: .././yt_dash.php:200
+msgid "Views"
+msgstr ""
+
+#: .././yt_dash.php:279
+msgid "Date"
+msgstr ""
+
+#: .././yt_dash.php:300
+msgid "Favorites Added"
+msgstr ""
+
+#: .././yt_dash.php:301
+msgid "Favorites Removed"
+msgstr ""
+
+#: .././yt_dash.php:302
+msgid "Subscribers Gained"
+msgstr ""
+
+#: .././yt_dash.php:303
+msgid "Subscribers Lost"
+msgstr ""
+
+#: .././yt_dash.php:304
+msgid "Shares"
+msgstr ""
+
+#: .././yt_dash.php:305
+msgid "Annotation Click ThroughRate"
+msgstr ""
+
+#: .././yt_dash.php:306
+msgid "Annotation Close Rate"
+msgstr ""
+
+#: .././yt_dash.php:312
+msgid "Statistics"
+msgstr ""
+
+#: .././yt_dash.php:312
+msgid "Value"
+msgstr ""
+
+#: .././yt_dash.php:337
+msgid "7 days"
+msgstr ""
+
+#: .././yt_dash.php:338
+msgid "14 days"
+msgstr ""
+
+#: .././yt_dash.php:339
+msgid "30 days"
+msgstr ""
+
+#: .././yt_dash.php:340
+msgid "This Month"
+msgstr ""
+
+#: .././yt_dash.php:341
+msgid "This Year"
+msgstr ""
+
+#: .././yt_dash.php:349
+msgid "Views:"
+msgstr ""
+
+#: .././yt_dash.php:351
+msgid "Watched:"
+msgstr ""
+
+#: .././yt_dash.php:353
+msgid "Duration:"
+msgstr ""
+
+#: .././yt_dash.php:357
+msgid "Likes:"
+msgstr ""
+
+#: .././yt_dash.php:359
+msgid "Dislikes:"
+msgstr ""
+
+#: .././yt_dash.php:361
+msgid "Comments:"
+msgstr ""
+
+#: .././yt_dash_admin.php:11
+msgid "Cleared Cache."
+msgstr ""
+
+#: .././yt_dash_admin.php:21
+msgid "Token Reseted."
+msgstr ""
+
+#: .././yt_dash_admin.php:62
+msgid "Options saved."
+msgstr ""
+
+#: .././yt_dash_admin.php:112
+msgid "YouTube Analytics Settings"
+msgstr ""
+
+#: .././yt_dash_admin.php:121
+msgid "You should watch this"
+msgstr ""
+
+#: .././yt_dash_admin.php:121
+msgid "video tutorial"
+msgstr ""
+
+#: .././yt_dash_admin.php:121
+msgid "before proceeding with authorization."
+msgstr ""
+
+#: .././yt_dash_admin.php:125
+msgid " use your own API Project credentials"
+msgstr ""
+
+#: .././yt_dash_admin.php:129
+msgid "API Key:"
+msgstr ""
+
+#: .././yt_dash_admin.php:133
+msgid "Client ID:"
+msgstr ""
+
+#: .././yt_dash_admin.php:137
+msgid "Client Secret:"
+msgstr ""
+
+#: .././yt_dash_admin.php:144
+msgid "Clear Authorization"
+msgstr ""
+
+#: .././yt_dash_admin.php:146 .././yt_dash_admin.php:151
+msgid "Clear Cache"
+msgstr ""
+
+#: .././yt_dash_admin.php:149
+msgid "Authorize Application"
+msgstr ""
+
+#: .././yt_dash_admin.php:154
+msgid ""
+"(the rest of the settings will show up after completing the authorization "
+"process)"
+msgstr ""
+
+#: .././yt_dash_admin.php:161
+msgid "Access Level"
+msgstr ""
+
+#: .././yt_dash_admin.php:162
+msgid "View Access Level: "
+msgstr ""
+
+#: .././yt_dash_admin.php:165
+msgid "Administrators"
+msgstr ""
+
+#: .././yt_dash_admin.php:167
+msgid "Editors"
+msgstr ""
+
+#: .././yt_dash_admin.php:169
+msgid "Authors"
+msgstr ""
+
+#: .././yt_dash_admin.php:171
+msgid "Contributors"
+msgstr ""
+
+#: .././yt_dash_admin.php:175
+msgid "Additional Stats"
+msgstr ""
+
+#: .././yt_dash_admin.php:179
+msgid " show additional stats like engagement and annotations performance"
+msgstr ""
+
+#: .././yt_dash_admin.php:180
+msgid "CSS Settings: "
+msgstr ""
+
+#: .././yt_dash_admin.php:183
+msgid "Red Theme"
+msgstr ""
+
+#: .././yt_dash_admin.php:185
+msgid "Light Theme"
+msgstr ""
+
+#: .././yt_dash_admin.php:189
+msgid "Cache Settings"
+msgstr ""
+
+#: .././yt_dash_admin.php:190
+msgid "Cache Time: "
+msgstr ""
+
+#: .././yt_dash_admin.php:193
+msgid "5 hours"
+msgstr ""
+
+#: .././yt_dash_admin.php:195
+msgid "10 hours"
+msgstr ""
+
+#: .././yt_dash_admin.php:197
+msgid "1 day"
+msgstr ""
+
+#: .././yt_dash_admin.php:203
+msgid "Save Changes"
+msgstr ""
+
+#: .././yt_dash_admin.php:222
+msgid "Setup Tutorial & Demo"
+msgstr ""
+
+#: .././yt_dash_admin.php:234
+msgid "Support & Reviews"
+msgstr ""
+
+#: .././yt_dash_admin.php:242
+msgid "Plugin documentation and support on"
+msgstr ""
+
+#: .././yt_dash_admin.php:249
+msgid "Your feedback and review are both important,"
+msgstr ""
+
+#: .././yt_dash_admin.php:249
+msgid "rate this plugin"
+msgstr ""
+
+#: .././yt_dash_admin.php:254
+msgid "Further Reading"
+msgstr ""
+
+#: .././yt_dash_admin.php:262
+msgid "Improve search rankings"
+msgstr ""
+
+#: .././yt_dash_admin.php:262
+msgid "by moving your website to HTTPS/SSL."
+msgstr ""
+
+#: .././yt_dash_admin.php:269
+msgid "Other"
+msgstr ""
+
+#: .././yt_dash_admin.php:269
+msgid "WordPress Plugins"
+msgstr ""
+
+#: .././yt_dash_admin.php:269
+msgid "written by the same author"
+msgstr ""
+
+#: .././yt_dash_admin.php:274
+msgid "Other Services"
+msgstr ""
+
+#: .././yt_dash_admin.php:281
+msgid "Speed up your website and plug into a whole"
+msgstr ""
+
+#: .././yt_dash_admin.php:281
+msgid "new level of site speed"
+msgstr ""
+
+#: .././yt_dash_admin.php:288
+msgid "Web Analytics"
+msgstr ""
+
+#: .././yt_dash_admin.php:288
+msgid "service with users tracking at IP level."
+msgstr ""
+
+#~ msgid ""
+#~ " (watch this <a href='http://deconf.com/projects/google-analytics-"
+#~ "dashboard-for-wordpress/' target='_blank'>Step by step video tutorial</a>)"
+#~ msgstr ""
+#~ " (watch this <a href='http://deconf.com/projects/google-analytics-"
+#~ "dashboard-for-wordpress/' target='_blank'>Step by step video tutorial</a>)"
