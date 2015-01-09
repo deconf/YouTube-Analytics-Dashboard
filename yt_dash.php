@@ -4,7 +4,7 @@ Plugin Name: YouTube Analytics Dashboard
 Plugin URI: https://deconf.com
 Description: This plugin will display YouTube Analytics data and statistics into Admin Dashboard. 
 Author: Alin Marcu
-Version: 1.1
+Version: 1.1.1
 Author URI: https://deconf.com
 */  
 
@@ -65,27 +65,7 @@ function yt_dash_content() {
 		update_option('yt_dash_cachetime', 60*60*24);	
 	}
 
-	// If at least PHP 5.3.2 use the autoloader, if not try to edit the include_path
-	if (version_compare(PHP_VERSION, '5.3.2') >= 0) {
-	    require 'vendor/autoload.php';
-	} else {
-	    set_include_path($GADASH_Config->plugin_path . '/src/' . PATH_SEPARATOR . get_include_path());
-	    // Include GAPI client
-	    if (! class_exists('Google_Client')) {
-	        require_once 'Google/Client.php';
-	    }
-	    
-	    // Include GAPI YouTube Service
-	    if (! class_exists('Google_Service_YouTube')) {
-	        require_once 'Google/Service/YouTube.php';
-	    }
-	    	    
-	    // Include GAPI YouTubeAnalytics Service
-	    if (! class_exists('Google_Service_YouTubeAnalytics')) {
-	        require_once 'Google/Service/YouTubeAnalytics.php';
-	    }
-	}	
-	
+    require 'autoload.php';	
 	
 	$client = new Google_Client();
 	$client->setAccessType('offline');

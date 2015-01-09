@@ -153,7 +153,7 @@ if (get_option('yt_dash_token')) {
     echo "</form>";
     _e("(the rest of the settings will show up after completing the authorization process)", 'yt_dash');
     echo "</div>";
-    ytdashsidebar();
+    deconfsidebar();
     return;
 }
 ?>
@@ -206,9 +206,9 @@ if (get_option('yt_dash_token')) {
 				</div>
 <?php
 
-ytdashsidebar();
+deconfsidebar();
 
-function ytdashsidebar()
+function deconfsidebar()
 {
     ?>
 				

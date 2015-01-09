@@ -1,10 +1,10 @@
 === YouTube Analytics Dashboard ===
 Contributors: deconf
-Donate link: http://deconf.com/donate/
+Donate link: https://deconf.com/donate/
 Tags: youtube analytics dashboard, analytics dashboard, youtube, dashboard, youtube analytics widget, youtube analytics, tracking, analytics
 Requires at least: 2.8
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,7 +36,7 @@ Youtube Analytics Dashboard features:
 4. Authorize the application using the 'Authorize Application' button
 5. Go back to the plugin configuration page, which is located under Settings -> YouTube Analytics to update the final settings.
 
-A step by step tutorial is available here: [YouTube Analytics Dashboard video tutorial](http://deconf.com/youtube-analytics-dashboard-wordpress/)
+A step by step tutorial is available here: [YouTube Analytics Dashboard video tutorial](https://deconf.com/youtube-analytics-dashboard-wordpress/)
 
 == Frequently Asked Questions == 
 
@@ -64,7 +64,11 @@ This plugin it's released under the GPLv2, you can use it free of charge on your
 
 == Changelog ==
 
-= v0.9.1 =
+= v1.1.1 =
+- Enhancement: GAPI library update
+- Bug Fix: fixing broken links
+
+= v1.1 =
 - Bug Fix: avoid conflicts with other plugins using GAPI library
 - Security: escaping output of API Key, Client ID and Client Secret
 - Enhancement: GAPI library update
