@@ -275,10 +275,10 @@ function deconfsidebar()
 					</h3>
 					<div class="inside">
 						<div class="deconf-title">
-							<a href="http://tracking.maxcdn.com/c/94142/36539/378"><img
+							<a href="https://deconf.com/wordpress-cdn-solution-a-tip-to-speed-up-your-site/"><img
 								src="<?php echo plugins_url( 'images/mcdn.png' , __FILE__ ); ?>" /></a>
 						</div>
-						<div class="deconf-desc"><?php echo  __('Speed up your website and plug into a whole', 'yt_dash').' <a href="http://tracking.maxcdn.com/c/94142/36539/378">'.__('new level of site speed', 'yt_dash').'</a>.'; ?></div>
+						<div class="deconf-desc"><?php echo  __('Speed up your website and plug into a whole', 'yt_dash').' <a href="https://deconf.com/wordpress-cdn-solution-a-tip-to-speed-up-your-site/">'.__('new level of site speed', 'yt_dash').'</a>.'; ?></div>
 						<br />
 						<div class="deconf-title">
 							<a
