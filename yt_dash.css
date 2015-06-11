@@ -9,8 +9,7 @@
 	-moz-box-shadow: inset 0px 1px 0px 0px #E1312B;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #E1312B;
 	box-shadow: inset 0px 1px 0px 0px #E1312B;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C7312B
-		), color-stop(1, #F0312B));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C7312B), color-stop(1, #F0312B));
 	background: -moz-linear-gradient(center top, #C7312B 5%, #F0312B 100%);
 	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#C7312B\', endColorstr=\'#F0312B\');*/
 	background-color: #C7312B;
@@ -29,8 +28,7 @@
 }
 
 .ytbutton:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #F0312B
-		), color-stop(1, #C7312B));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #F0312B), color-stop(1, #C7312B));
 	background: -moz-linear-gradient(center top, #F0312B 5%, #C7312B 100%);
 	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#F0312B\', endColorstr=\'#C7312B\');*/
 	background-color: #F0312B;
@@ -66,8 +64,7 @@ table.yttable {
 	-moz-box-shadow: inset 0px 1px 0px 0px #E1312B;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #E1312B;
 	box-shadow: inset 0px 1px 0px 0px #E1312B;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C7312B
-		), color-stop(1, #F0312B));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C7312B), color-stop(1, #F0312B));
 	background: -moz-linear-gradient(center top, #C7312B 5%, #F0312B 100%);
 	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#C7312B\', endColorstr=\'#F0312B\');*/
 	background-color: #C7312B;

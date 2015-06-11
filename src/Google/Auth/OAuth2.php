@@ -32,11 +32,11 @@ class Google_Auth_OAuth2 extends Google_Auth_Abstract {
 	const OAUTH2_AUTH_URL = 'https://accounts.google.com/o/oauth2/auth';
 
 	const CLOCK_SKEW_SECS = 300;
- // five minutes in seconds
+	// five minutes in seconds
 	const AUTH_TOKEN_LIFETIME_SECS = 300;
- // five minutes in seconds
+	// five minutes in seconds
 	const MAX_TOKEN_LIFETIME_SECS = 86400;
- // one day in seconds
+	// one day in seconds
 	const OAUTH2_ISSUER = 'accounts.google.com';
 
 	/** @var Google_Auth_AssertionCredentials $assertionCredentials */

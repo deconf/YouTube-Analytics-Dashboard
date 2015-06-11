@@ -139,7 +139,8 @@ class Google_Utils_URITemplate {
 			// Each is treated individually, then glued together with the
 			// separator character.
 			$vars = explode( ",", $section );
-			return $this->combineList( $vars, $sep, $parameters, $combine, $reserved, false, // Never emit empty strings in multi-param replacements
+			return $this->combineList( $vars, $sep, $parameters, $combine, $reserved, false, // Never emit empty strings in
+			                                                                                 // multi-param replacements
 $combine_on_empty );
 		}
 	}
